@@ -38,4 +38,100 @@ public class Volumen extends perimetro{
 
 }
 
+    public double getiVolumen() {
+        return iVolumen;
+    }
+
+    public void setiVolumen(double iVolumen) {
+        this.iVolumen = iVolumen;
+    }
+
+    public double getiArista() {
+        return iArista;
+    }
+
+    public void setiArista(double iArista) {
+        this.iArista = iArista;
+    }
+
+    public double getResultadoCono() {
+        return resultadoCono;
+    }
+
+    public void setResultadoCono(double resultadoCono) {
+        this.resultadoCono = resultadoCono;
+    }
+
+    public double getResultaEsfera() {
+        return resultaEsfera;
+    }
+
+    public void setResultaEsfera(double resultaEsfera) {
+        this.resultaEsfera = resultaEsfera;
+    }
+
+    public double getLado() {
+        return lado;
+    }
+
+    public void setLado(double lado) {
+        this.lado = lado;
+    }
+
+    public double getArea() {
+        return area;
+    }
+
+    public void setArea(double area) {
+        this.area = area;
+    }
+
+    public double getPer() {
+        return per;
+    }
+
+    public void setPer(double per) {
+        this.per = per;
+    }
+
+    public double getN1() {
+        return n1;
+    }
+
+    public void setN1(double n1) {
+        this.n1 = n1;
+    }
+
+    public double getN2() {
+        return n2;
+    }
+
+    public void setN2(double n2) {
+        this.n2 = n2;
+    }
+
+    public double getPerim() {
+        return perim;
+    }
+
+    public void setPerim(double perim) {
+        this.perim = perim;
+    }
+
+    public double getPerimetroTriangulo() {
+        return perimetroTriangulo;
+    }
+
+    public void setPerimetroTriangulo(double perimetroTriangulo) {
+        this.perimetroTriangulo = perimetroTriangulo;
+    }
+
+    public double getPerimetro1() {
+        return perimetro1;
+    }
+
+    public void setPerimetro1(double perimetro1) {
+        this.perimetro1 = perimetro1;
+    }
+    
 }
