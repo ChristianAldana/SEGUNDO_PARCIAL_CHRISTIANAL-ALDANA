@@ -179,38 +179,7 @@ public class ClasePrincipal {
                         
                              System.out.println(hija2.Cubo(iArista));
 
-                        case 6:
-                            double radioCono, alturaCono;
-                          Scanner leerRadioCono = new Scanner(System.in);
-                         Scanner leerRadioCono2= new Scanner(System.in);
                         
-                        
-                         System.out.println("Ingrese el lado ");
-                         radioCono = leerRadioCono.nextDouble();
-
-                         System.out.println("Ingrese la altura ");
-                         alturaCono = leerRadioCono2.nextDouble();
-                       
-                         System.out.println(hija2.Cono(radioCono, alturaCono));
-                         
-                         break;
-                 
-                         case 7:
-                             
-                            double radioEsfera1;
-                            
-                          Scanner leerEsfera = new Scanner(System.in);
-                        
-                        
-                         System.out.println("Ingrese el valor del radio ");
-                         radioEsfera1 = leerEsfera.nextDouble();
-
-                         
-                         System.out.println(hija2.Esfera(radioEsfera1));
-                         
-                         break;
-                 
-        } 
 }}
 }  
 
