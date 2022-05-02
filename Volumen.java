@@ -2,7 +2,7 @@
 package figurasgeometricas;
 
 
-public class Volumen {
+public class Volumen extends perimetro{
     
     
 }
