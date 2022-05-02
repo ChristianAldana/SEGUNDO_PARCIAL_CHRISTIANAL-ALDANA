@@ -156,8 +156,61 @@ public class ClasePrincipal {
   
   
     }
-          
+          case 3:
+              System.out.println("Que figura geometrica desea realizar su funcion");           
+                 System.out.println("1.Cuadrado");
+                 System.out.println("2.Rectangulo");
+                 System.out.println("3.Triangulo");
+                 System.out.println("4.Circulo");
+                 System.out.println("5.Cubo");
+                 System.out.println("6.Cono");
+                 System.out.println("7.Esfera");
+                 System.out.println("Digite el numero del tipo de la funcion que desea realizar");
+                                     accion4 = leerAccion.nextInt();     
+
+                   switch (accion4) {
+                        
+                        case 5:
+                                                      Scanner reader = new Scanner(System.in);
+                        double iArista, iVolumen;
+
+                        System.out.println("Introduce el valor de la arista del cubo");
+                        iArista = reader.nextDouble();
+                        
+                             System.out.println(hija2.Cubo(iArista));
+
+                        case 6:
+                            double radioCono, alturaCono;
+                          Scanner leerRadioCono = new Scanner(System.in);
+                         Scanner leerRadioCono2= new Scanner(System.in);
+                        
+                        
+                         System.out.println("Ingrese el lado ");
+                         radioCono = leerRadioCono.nextDouble();
+
+                         System.out.println("Ingrese la altura ");
+                         alturaCono = leerRadioCono2.nextDouble();
+                       
+                         System.out.println(hija2.Cono(radioCono, alturaCono));
+                         
+                         break;
+                 
+                         case 7:
+                             
+                            double radioEsfera1;
+                            
+                          Scanner leerEsfera = new Scanner(System.in);
+                        
+                        
+                         System.out.println("Ingrese el valor del radio ");
+                         radioEsfera1 = leerEsfera.nextDouble();
+
+                         
+                         System.out.println(hija2.Esfera(radioEsfera1));
+                         
+                         break;
+                 
         } 
 }}
-  
+}  
 
